@@ -1,13 +1,79 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'Dancing Script';
+  src: url('./assets/fonts/Dancing_Script/DancingScript-Medium.woff2') format('woff2'),
+      url('./assets/fonts/Dancing_Script/DancingScript-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'Dancing Script';
+  src: url('./assets/fonts/Dancing_Script/DancingScript-Bold.woff2') format('woff2'),
+      url('./assets/fonts/Dancing_Script/DancingScript-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dancing Script';
+  src: url('./assets/fonts/Dancing_Script/DancingScript-Regular.woff2') format('woff2'),
+      url('./assets/fonts/Dancing_Script/DancingScript-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dancing Script';
+  src: url('./assets/fonts/Dancing_Script/DancingScript-SemiBold.woff2') format('woff2'),
+      url('./assets/fonts/Dancing_Script/DancingScript-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gentium Plus';
+  src: url('./assets/fonts/Gentium_Plus/GentiumPlus-BoldItalic.woff2') format('woff2'),
+      url('./assets/fonts/Gentium_Plus/GentiumPlus-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gentium Plus';
+  src: url('./assets/fonts/Gentium_Plus/GentiumPlus-Italic.woff2') format('woff2'),
+      url('./assets/fonts/Gentium_Plus/GentiumPlus-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gentium Plus';
+  src: url('./assets/fonts/Gentium_Plus/GentiumPlus.woff2') format('woff2'),
+      url('./assets/fonts/Gentium_Plus/GentiumPlus.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gentium Plus';
+  src: url('./assets/fonts/Gentium_Plus/GentiumPlus-Bold.woff2') format('woff2'),
+      url('./assets/fonts/Gentium_Plus/GentiumPlus-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+body {
+  background-color: #495E57;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
