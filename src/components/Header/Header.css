@@ -1,0 +1,32 @@
+.header-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
+}
+.header-section-navigation,
+.header-wrapper-navigation{
+  display: flex;
+  align-items: center;
+}
+.header-section-navigation{
+  gap: 2rem;
+}
+.header-wrapper-navigation{
+  gap: 1rem;
+}
+.header-link-navigation{
+  padding: .5rem 1.25rem;
+  font-family: 'Gentium Plus';
+  color: #EDEFEE;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: .5rem;
+  transition: .5s;
+}
+.header-link-navigation:hover{
+  background-color: #2F3D38;
+  color: #EDEFEE;
+}
