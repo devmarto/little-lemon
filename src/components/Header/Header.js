@@ -1,5 +1,6 @@
 import './Header.css';
 import logo from '../../assets/images/little-lemon-logo.svg';
+import Button from '../Button/Button';
 
 function Header(){
   return(
@@ -24,7 +25,7 @@ function Header(){
                 </li>
               </ul>
             </nav>
-            <a href>Book a Reservation</a>
+            <Button label='Book a Reservation' />
           </div>
         </div>
       </div>
