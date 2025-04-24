@@ -1,0 +1,47 @@
+.testimonial-container{
+    background-color: #2F3D38;
+    padding: 4rem 0;
+    position: relative;
+}
+.testimonial-slide{
+    max-width: 1375px!important;
+    width: 100%!important;
+}
+
+/* Swiper Navigation Styles */
+.testimonial-navigation{
+    position: absolute;
+    right: 16px;
+    display: flex;
+    width: 180px;
+}
+.swiper-button-prev,
+.swiper-button-next {
+    color: #fff;
+    background: #EDEFEE;
+    height: 72px!important;
+    width: 72px!important;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    height: 24px!important;
+    width: 24px!important;
+    content: url('../../assets/images/arrow.svg')!important;
+    top: -12px !important;
+    position: relative !important;
+}
+.swiper-button-prev:after{
+    transform: rotate(180deg);
+    top: 16px!important;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+    background: #FFF;
+}
