@@ -1,0 +1,19 @@
+.title-text{
+    max-width: 750px;
+    width: 100%;
+}
+.title-title{
+    font-family: 'Dancing Script';
+    font-size: 4rem;
+    color: #EDEFEE;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+.title-description{
+    font-family: 'Gentium Plus';
+    font-size: 1.5rem;
+    line-height: 2.125rem;
+    color: #EDEFEE;
+    font-weight: 500;
+
+}
