@@ -1,7 +1,20 @@
+import Button from '../Button/Button';
+import './Hero.css';
+import hero from '../../assets/images/hero-image.png'
+
 function Hero(){
   return(
-    <section>
-      <p>Hero</p>
+    <section className="container">
+      <div className="hero">
+        <div className="hero-text">
+          <h1 className="hero-title">An unforgettable dinning experience awaits</h1>
+          <p className="hero-subtitle">Enjoy local Chicago cuisine made with the finest ingredients and flavors  that will leave a lasting impression on you.</p>
+          <Button label="Reserve Your Table Now"/>
+        </div>
+        <div>
+          <img src={hero} alt="Little Lemon Restaurant" />
+        </div>
+      </div>
     </section>
   )
 }

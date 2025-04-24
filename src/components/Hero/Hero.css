@@ -1,0 +1,24 @@
+.hero{
+  display: flex;
+  align-items: center;
+  gap: 4.875rem;
+  padding: 4rem 0;
+}
+.hero-text{
+  color: #EDEFEE;
+}
+.hero-title{
+  font-family: 'Dancing Script';
+  font-size: 6rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+.hero-subtitle{
+  font-size: 1.5rem;
+  line-height: 2.125rem;
+  font-family: 'Gentium Plus';
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  max-width: 586px;
+  width: 100%;
+}
