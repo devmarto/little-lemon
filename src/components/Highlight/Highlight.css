@@ -16,3 +16,9 @@
     align-items: center;
     gap: 1rem;
 }
+.highlight-dishes{
+    display: flex;
+    justify-content: space-between;
+    gap: 3.625rem;
+    margin-top: 2.5rem;
+}

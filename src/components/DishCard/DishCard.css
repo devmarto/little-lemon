@@ -1,0 +1,37 @@
+.dish-card{
+    flex: 1;
+}
+.dish-card__image{
+    width: 100%;
+}
+.dish-card__info{
+    display: flex;
+    justify-content: space-between;
+}
+.dish-card__title,
+.dish-card__price{
+    font-family: 'Dancing Script';
+    font-size: 2rem;
+    color: #EDEFEE;
+    margin: 1.25rem 0;
+}
+.dish-card__price{
+    color: #EE9972;
+}
+.dish-card__description{
+    font-family: 'Gentium Plus';
+    font-size: 1.5rem;
+    line-height: 2.125rem;
+    color: #EDEFEE;
+    margin-bottom: 1.25rem;
+}
+.dish-card__button{
+    display: flex;
+    gap: 1rem;
+    text-decoration: none;
+    color: #F4CE14;
+    font-family: 'Gentium Plus';
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2.125rem;
+}
