@@ -24,7 +24,7 @@
   font-weight: bold;
   text-decoration: none;
   border-radius: .5rem;
-  transition: .5s;
+  transition: all 0.3s ease;
 }
 .header-link-navigation:hover{
   background-color: #2F3D38;
