@@ -1,6 +1,9 @@
 import Title from '../Title/Title';
 import './About.css';
 import about from '../../assets/images/restaurant.png';
+import Button from '../Button/Button';
+
+
 function About(){
   return(
     <section className="container">
@@ -21,6 +24,9 @@ function About(){
               From classic favorites to innovative creations, our menu offers a taste of Chicago you won't soon forget. 
             </p>
           </div>
+          <Button 
+            label="Book a Reservation"
+          />
         </div>
         <div className="about-image">
           <img src={about} alt="Little Lemon Restaurant" />
