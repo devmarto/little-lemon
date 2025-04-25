@@ -1,0 +1,84 @@
+footer{
+    background-color: #2F3D38;
+    padding: 4rem 0;
+    color: #EDEFEE;
+}
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-about-description{
+    color: #EDEFEE;
+    font-family: 'Gentium Plus';
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2.125rem;
+    margin-top: 2rem;
+    max-width: 470px;
+    width: 100%;
+}
+.footer-menu-title{
+    font-family: 'Gentium Plus';
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2.125rem;
+    margin-bottom: 2rem;
+}
+.footer-menu-item{
+    margin-bottom: 2rem;
+}
+.footer-info-title{
+    font-family: 'Gentium Plus';
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2.125rem;
+    margin-bottom: 1rem;
+}
+.footer-info{
+    margin-bottom: 2rem;
+}
+.footer-menu-link{
+    color: #EDEFEE;
+    font-family: 'Gentium Plus';
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 2.125rem;
+    text-decoration: none;  
+}
+.footer-infos-description{
+    font-family: 'Gentium Plus';
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 2rem;
+}
+.footer-copyright-separator{
+    background-color: #495E57;
+    width: 100%;
+    height: 1px;
+    border: none;
+    margin: 2rem 0;
+}
+.footer-copyright-description{
+    font-family: 'Gentium Plus';
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 2rem;
+    color: #EDEFEE;
+}
+.footer-copyright-content{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-copyright-links{
+    display: flex;
+    gap: 2rem;
+}
+.footer-copyright-link{
+    color: #EDEFEE;
+    font-family: 'Gentium Plus';
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;  
+}
