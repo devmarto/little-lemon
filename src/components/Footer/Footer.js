@@ -3,7 +3,7 @@ import logo from '../../assets/images/little-lemon-logo.svg';
 
 function Footer(){
   return(
-    <footer>
+    <footer className='footer'>
       <div className="container">
         <div className="footer-section">
           <div className="footer-about">
