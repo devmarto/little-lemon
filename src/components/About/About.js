@@ -2,11 +2,11 @@ import Title from '../Title/Title';
 import './About.css';
 import about from '../../assets/images/restaurant.png';
 import Button from '../Button/Button';
-
+import { Link } from 'react-router-dom';
 
 function About(){
   return(
-    <section className="container">
+    <section id="about" className="container">
       <div className="about">
         <div className="about-text">
           <Title 
@@ -24,9 +24,9 @@ function About(){
               From classic favorites to innovative creations, our menu offers a taste of Chicago you won't soon forget. 
             </p>
           </div>
-          <Button 
-            label="Book a Reservation"
-          />
+          <Link to="/booking">
+            <Button  label="Book a Reservation" />
+          </Link>
         </div>
         <div className="about-image">
           <img src={about} alt="Little Lemon Restaurant" />
