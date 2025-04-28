@@ -1,6 +1,7 @@
 import BookingForm from "../BookingForm/BookingForm";
 import './BookingPage.css';
 import Title from "../Title/Title";
+
 export default function BookingPage() {
     return (
         <section className="container">

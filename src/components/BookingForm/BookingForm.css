@@ -37,7 +37,8 @@ form{
     box-sizing: border-box;
 }
 
-.checkbox-input{
+.checkbox-input,
+.checkbox-label{
     display: inline-block;
 }
 

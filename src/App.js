@@ -6,6 +6,7 @@ import Hero from "./components/Hero/Hero";
 import Highlight from "./components/Highlight/Highlight";
 import Testimonial from "./components/Testimonial/Testimonial";
 import BookingPage from "./components/BookingPage/BookingPage";
+import BookingConfirmation from "./components/BookingConfirmation/BookingConfirmation";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           </>
         } />
         <Route path="/booking" element={<BookingPage />} />
+        <Route path="/booking-confirmation" element={<BookingConfirmation />} />
       </Routes>
       <Footer />
     </>

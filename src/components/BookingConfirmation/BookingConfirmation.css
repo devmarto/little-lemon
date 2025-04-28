@@ -1,0 +1,55 @@
+.booking-confirmation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.booking-confirmation{
+    padding: 4rem 0;
+}
+.booking-confirmation-title{
+    font-family: 'Gentium Plus';
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 3.125rem;
+    color: #EDEFEE;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.booking-confirmation-description{
+    font-family: 'Gentium Plus';
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.125rem;
+    color: #EDEFEE;
+    margin-top: 1rem;
+}
+.booking-confirmation-details-item{
+    max-width: 832px;
+    width: 100%;
+    margin: 0 auto;
+    border: 2px solid #EDEFEE;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-bottom: 4rem;
+}
+.booking-confirmation-details-title{
+    font-family: 'Gentium Plus';
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.125rem;
+    color: #EDEFEE;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.booking-confirmation-details-item-label{
+    font-family: 'Gentium Plus';
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2.125rem;
+    color: #EDEFEE;
+    margin-bottom: 1rem;
+}
+.booking-confirmation-details-item-label span{
+    font-weight: 400;
+}
