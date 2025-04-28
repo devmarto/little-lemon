@@ -1,7 +1,7 @@
 import { Formik, Form, useField } from 'formik';
 import './BookingForm.css';
 import * as Yup from 'yup';
-
+import { useNavigate } from 'react-router-dom';
 
 const MyTextInput = ({ label, ...props}) => {
     const [field, meta] = useField(props)
@@ -22,7 +22,7 @@ const MyCheckbox = ({ children, ...props}) => {
     return (
         <div className='form-group'>
             <input id={field.name} className='checkbox-input' type='checkbox' {...field} {...props}/>
-            <label className='form-label' htmlFor={field.name}>{children}</label>
+            <label className='form-label checkbox-label' htmlFor={field.name}>{children}</label>
             {meta.touched && meta.error ? (
                 <div className="error">{meta.error}</div>
             ) : null}
@@ -44,6 +44,7 @@ const MySelect = ({ label, ...props }) => {
 };
 
 export default function BookingForm() {
+    const navigate = useNavigate();
     return (
         <>
             <Formik
@@ -93,6 +94,11 @@ export default function BookingForm() {
                     setTimeout(() => {
                         console.log(JSON.stringify(values, null, 2));
                         setSubmitting(false);
+                        const reservationData = {
+                            ...values,
+                            bookingDate: new Date(values.bookingDate)
+                        };
+                        navigate('/booking-confirmation', { state: { reservationDetails: reservationData } });
                     }, 400);
                 }}
             >
