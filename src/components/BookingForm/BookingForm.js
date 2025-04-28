@@ -7,7 +7,7 @@ const MyTextInput = ({ label, ...props}) => {
     const [field, meta] = useField(props)
     return (
         <div className='form-group'>
-            <label htmlFor={props.id || props.name}>{label}</label>
+            <label className='form-label' htmlFor={props.id || props.name}>{label}</label>
             <input className="text-input" {...field} {...props}/>
             {meta.touched && meta.error ? (
                 <div className="error">{meta.error}</div>
@@ -21,8 +21,8 @@ const MyCheckbox = ({ children, ...props}) => {
     const [field, meta] = useField({ ...props, type: 'checkbox'})
     return (
         <div className='form-group'>
-            <input type='checkbox' {...field} {...props}/>
-            <label htmlFor={field.name}>{children}</label>
+            <input id={field.name} className='checkbox-input' type='checkbox' {...field} {...props}/>
+            <label className='form-label' htmlFor={field.name}>{children}</label>
             {meta.touched && meta.error ? (
                 <div className="error">{meta.error}</div>
             ) : null}
@@ -34,8 +34,8 @@ const MySelect = ({ label, ...props }) => {
     const [field, meta] = useField(props);
     return (
         <div className='form-group'>
-            <label htmlFor={props.id || props.name}>{label}</label>
-            <select {...field} {...props} />
+            <label className='form-label' htmlFor={props.id || props.name}>{label}</label>
+            <select className='select-input' {...field} {...props} />
             {meta.touched && meta.error ? (
                 <div className="error">{meta.error}</div>
             ) : null}
@@ -98,25 +98,27 @@ export default function BookingForm() {
             >
                 <Form>
 
-                    <MyTextInput
-                        label="First Name"
-                        name="firstName"
-                        type="text"
-                        placeholder="Jane"
-                    />
+                    <div className='form-group-col'>
+                        <MyTextInput
+                            label="First Name"
+                            name="firstName"
+                            type="text"
+                            placeholder="Jhon"
+                        />
 
-                    <MyTextInput
-                        label="Last Name"
-                        name="lastName"
-                        type="text"
-                        placeholder="Doe"
-                    />
+                        <MyTextInput
+                            label="Last Name"
+                            name="lastName"
+                            type="text"
+                            placeholder="Doe"
+                        />
+                    </div>
 
                     <MyTextInput
                         label="Email Address"
                         name="email"
                         type="email"
-                        placeholder="jane@formik.com"
+                        placeholder="jhon@email.com"
                     />
 
                     <MyTextInput
@@ -126,23 +128,25 @@ export default function BookingForm() {
                         placeholder="1"
                     />
 
-                    <MyTextInput
-                        label="Booking Date"
-                        name="bookingDate"
-                        type="date"
-                        placeholder="2025-01-01"
-                    />
+                    <div className='form-group-col'>
+                        <MyTextInput
+                            label="Booking Date"
+                            name="bookingDate"
+                            type="date"
+                            placeholder="2025-01-01"
+                        />
 
-                    <MySelect label="Time Slot" name="timeSlot">
-                        <option value="">Select a time slot</option>
-                        <option value="17:00">17:00</option>
-                        <option value="18:00">18:00</option>
-                        <option value="19:00">19:00</option>
-                        <option value="20:00">20:00</option>
-                        <option value="21:00">21:00</option>
-                        <option value="22:00">22:00</option>
-                    </MySelect>
-
+                        <MySelect label="Time Slot" name="timeSlot">
+                            <option value="">Select a time slot</option>
+                            <option value="17:00">17:00</option>
+                            <option value="18:00">18:00</option>
+                            <option value="19:00">19:00</option>
+                            <option value="20:00">20:00</option>
+                            <option value="21:00">21:00</option>
+                            <option value="22:00">22:00</option>
+                        </MySelect>
+                    </div>
+                    
                     <MySelect label="Occasion" name="occasion">
                         <option value="">Select an occasion</option>
                         <option value="Birthday">Birthday</option>
@@ -156,8 +160,8 @@ export default function BookingForm() {
                         I accept the terms and conditions
                     </MyCheckbox>
 
-                    <button type="submit">Make Your reservation</button>
-                    <button type="reset">Reset</button>
+                    <button className='btn btn-reservation' type="submit">Make Reservation</button>
+                    {/* <button type="reset">Reset</button> */}
                 </Form>
             </Formik>
         </>

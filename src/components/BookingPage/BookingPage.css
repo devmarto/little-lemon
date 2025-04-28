@@ -1,0 +1,18 @@
+.booking-page{
+    max-width: 960px;
+    width: 100%;
+    margin: 4rem auto;
+    background-color: #EDEFEE;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.booking-page .title-title{
+    color: #495E57;
+    margin-bottom: .5rem;
+}
+
+.booking-page .title-description{
+    color: #495E57;
+    margin-bottom: 2rem;
+}
