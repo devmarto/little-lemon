@@ -2,9 +2,51 @@ form{
     color: #FFF;
 }
 .form-group{
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    width: 100%;
 }
 
 .error{
+    margin-top: .5rem;
     color: rgb(255, 117, 117);
+}
+
+.form-label{
+    font-family: 'Gentium Plus';
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 2.125rem;
+    color: #495E57;
+    display: block;
+}
+
+.text-input,
+.select-input{
+    background-color: transparent;
+    border: 1px solid #495E57;
+    border-radius: .25rem;
+    height: 40px;
+    padding: 0 1rem;
+    margin-top: .25rem;
+    display: block;
+    font-family: 'Gentium Plus';
+    font-size: 1rem;
+    line-height: 2.125rem;
+    color: #495E57;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.checkbox-input{
+    display: inline-block;
+}
+
+.form-group-col{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+}
+
+.btn-reservation{
+    width: 100%;
 }
