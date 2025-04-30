@@ -29,7 +29,7 @@ function About(){
           </Link>
         </div>
         <div className="about-image">
-          <img src={about} alt="Little Lemon Restaurant" />
+          <img src={about} alt="Little Lemon Restaurant" width={'100%'}/>
         </div>
       </div>
     </section>

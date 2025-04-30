@@ -1,24 +1,39 @@
 .hero{
   display: flex;
   align-items: center;
-  gap: 4.875rem;
+  gap: 2rem;
   padding: 4rem 0;
 }
 .hero-text{
+  max-width: 50%;
+  width: 100%;
   color: #EDEFEE;
 }
 .hero-title{
   font-family: 'Dancing Script';
-  font-size: 6rem;
+  font-size: 4.5rem;
   font-weight: 500;
   margin-bottom: 1.5rem;
 }
 .hero-subtitle{
-  font-size: 1.5rem;
-  line-height: 2.125rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
   font-family: 'Gentium Plus';
   font-weight: 500;
   margin-bottom: 1.5rem;
-  max-width: 586px;
+  max-width: 460px;
   width: 100%;
+}
+@media (max-width: 768px) {
+  .hero{
+    flex-wrap: wrap;
+    padding: 2rem 0;
+  }
+  .hero-text{
+    max-width: 100%;
+    width: 100%;
+  }
+  .hero-title{
+    font-size: 3rem;
+  }
 }

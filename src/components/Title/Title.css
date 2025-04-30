@@ -1,19 +1,24 @@
 .title-text{
-    max-width: 750px;
+    max-width: 500px;
     width: 100%;
 }
 .title-title{
     font-family: 'Dancing Script';
-    font-size: 4rem;
+    font-size: 3rem;
     color: #EDEFEE;
     font-weight: 500;
     margin-bottom: 1.5rem;
 }
 .title-description{
     font-family: 'Gentium Plus';
-    font-size: 1.5rem;
-    line-height: 2.125rem;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
     color: #EDEFEE;
     font-weight: 500;
+}
 
+@media (max-width: 1024px) {
+    .title-text{
+        max-width: 100%;
+    }
 }

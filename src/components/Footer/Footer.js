@@ -1,4 +1,5 @@
 import './Footer.css';
+import { Link } from 'react-router-dom';
 import logo from '../../assets/images/little-lemon-logo.svg';
 
 function Footer(){
@@ -51,9 +52,9 @@ function Footer(){
           <div className="footer-copyright-content">
             <p className="footer-copyright-description">Copyright © 2025 Little Lemon - André Marto</p>
             <div className="footer-copyright-links">
-              <a href="#" className="footer-copyright-link">Terms</a>
-              <a href="#" className="footer-copyright-link">Privacy Policy</a>
-              <a href="#" className="footer-copyright-link">Cookies</a>
+              <Link to="" className="footer-copyright-link">Terms</Link>
+              <Link to="" className="footer-copyright-link">Privacy Policy</Link>
+              <Link to="" className="footer-copyright-link">Cookies</Link>
             </div>
           </div>
         </div>

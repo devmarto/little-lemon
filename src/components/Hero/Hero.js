@@ -15,7 +15,7 @@ function Hero(){
           </Link>
         </div>
         <div>
-          <img src={hero} alt="Little Lemon Restaurant" />
+          <img src={hero} alt="Little Lemon Restaurant" width={'100%'}/>
         </div>
       </div>
     </section>
