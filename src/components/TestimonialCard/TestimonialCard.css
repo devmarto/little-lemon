@@ -8,6 +8,7 @@
     margin-top: 4rem;
 }
 .testimonial-header{
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -19,22 +20,53 @@
     gap: 1.5rem;
 }
 .testimonial-card-title{
-    font-size: 4rem;
+    font-size: 3rem;
     line-height: 1.2;
     font-weight: 600;
     font-family: 'Dancing Script';
     font-weight: bold;
 }
 .testimonial-card-description{
-    font-size: 1.5rem;
+    font-size: 1.125rem;
     font-weight: normal;
     font-family: 'Gentium Plus';
-    line-height: 1.2;
-    margin: 1.25rem 0;
+    line-height: 1.5;
+    margin: 0.75rem 0;
 }
 .testimonial-card-name{
     font-size: 1.125rem;
     font-weight: bold;
     font-family: 'Gentium Plus';
     text-transform: uppercase;
+}
+.testimonial-card-image img{
+    width: 400px;
+}
+@media (max-width: 1024px) {
+    .testimonial-card{
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .testimonial-container-initial{
+        max-width: 100%;
+        width: auto!important;
+    }
+    .testimonial-card-image{
+        width: 100%;
+    }
+    .testimonial-card-image img{
+        width: 100%;
+    }
+    .testimonial-card-title{
+        font-size: 2.5rem;
+    }
+    .testimonial-navigation{
+        right: 0;
+    }
+}
+@media (max-width: 767px) {
+    .testimonial-navigation{
+        top: 150px;
+        width: 112px;
+    }
 }

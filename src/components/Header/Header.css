@@ -30,3 +30,9 @@
   background-color: #2F3D38;
   color: #EDEFEE;
 }
+
+@media (max-width: 768px) {
+  .header-section{
+    display: none;
+  }
+}

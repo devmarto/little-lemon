@@ -6,14 +6,29 @@
 }
 .about-content{
     margin-top: 2rem;
-    max-width: 560px;
+    max-width: 500px;
+    width: 100%;
+}
+.about-text{
+    max-width: 50%;
     width: 100%;
 }
 .about-content p{
     color: #EDEFEE;
     font-family: 'Gentium Plus';
     font-weight: 500;
-    font-size: 1.5rem;
-    line-height: 2.125rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
     margin-bottom: 1.5rem;
+}
+
+@media (max-width: 1024px) {
+    .about{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .about-text{
+        max-width: 100%;
+        width: 100%;
+    }
 }

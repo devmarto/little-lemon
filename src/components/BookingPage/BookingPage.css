@@ -16,3 +16,18 @@
     color: #495E57;
     margin-bottom: 2rem;
 }
+@media (max-width: 1024px) {
+    .booking-page{
+        max-width: 100%;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 1.5rem;
+    }
+    .booking-page .title-title{
+        font-size: 2rem;
+    }
+    .booking-page .title-description{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+}

@@ -32,8 +32,6 @@ function Testimonial(){
           }}
           spaceBetween={32}
           slidesPerView={'auto'}
-          onSlideChange={() => console.log('slide change')}
-          onSwiper={(swiper) => console.log(swiper)}
         >
           <SwiperSlide className="testimonial-slide">
             <TestimonialCard 

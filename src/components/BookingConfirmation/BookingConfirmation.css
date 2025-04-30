@@ -3,8 +3,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-.booking-confirmation{
     padding: 4rem 0;
 }
 .booking-confirmation-title{
@@ -23,6 +21,7 @@
     line-height: 2.125rem;
     color: #EDEFEE;
     margin-top: 1rem;
+    text-align: center;
 }
 .booking-confirmation-details-item{
     max-width: 832px;
@@ -32,6 +31,7 @@
     border-radius: 1rem;
     padding: 2rem;
     margin-bottom: 4rem;
+    box-sizing: border-box;
 }
 .booking-confirmation-details-title{
     font-family: 'Gentium Plus';
@@ -52,4 +52,28 @@
 }
 .booking-confirmation-details-item-label span{
     font-weight: 400;
+}
+@media (max-width: 1024px) {
+    .booking-confirmation img{
+        width: 50%;
+    }
+    .booking-confirmation-title{
+        font-size: 2rem;
+        line-height: 2.125rem;
+        margin-bottom: 0;
+    }
+    .booking-confirmation-description{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    .booking-confirmation-details-title{
+        font-size: 1.5rem;
+    }
+    .booking-confirmation-details-item{
+        padding: 1rem;
+    }
+    .booking-confirmation-details-item-label{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
 }

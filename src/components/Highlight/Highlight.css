@@ -3,6 +3,7 @@
 }
 .highlight-header{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: end;
 }
@@ -10,15 +11,21 @@
     display: flex;
     color: #F4CE14;
     font-family: 'Gentium Plus';
-    font-size: 1.5rem;
+    font-size: 1.125rem;
     font-weight: bold;
     text-decoration: none;
     align-items: center;
-    gap: 1rem;
+    gap: .5rem;
 }
 .highlight-dishes{
     display: flex;
     justify-content: space-between;
     gap: 3.625rem;
     margin-top: 2.5rem;
+}
+@media (max-width: 1024px) {
+    .highlight-dishes{
+        flex-direction: column;
+        padding: 2rem 0;
+    }
 }

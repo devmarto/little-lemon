@@ -11,7 +11,7 @@
 /* Swiper Navigation Styles */
 .testimonial-navigation{
     position: absolute;
-    right: 16px;
+    right: -10px;
     display: flex;
     width: 180px;
 }
@@ -44,4 +44,22 @@
 .swiper-button-prev:hover,
 .swiper-button-next:hover {
     background: #FFF;
+}
+
+@media (max-width: 767px) {
+    .swiper-button-prev,
+    .swiper-button-next {
+        color: #fff;
+        background: #EDEFEE;
+        height: 40px!important;
+        width: 40px!important;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease;
+    }
+    .swiper-button-next:after{
+        top: -14px !important;
+    }
 }

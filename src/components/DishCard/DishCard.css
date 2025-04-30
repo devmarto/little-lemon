@@ -17,21 +17,23 @@
 }
 .dish-card__price{
     color: #EE9972;
+    font-size: 1.5rem;
 }
 .dish-card__description{
     font-family: 'Gentium Plus';
-    font-size: 1.5rem;
-    line-height: 2.125rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
     color: #EDEFEE;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1rem;
 }
 .dish-card__button{
     display: flex;
-    gap: 1rem;
+    align-items: center;
+    gap: .5rem;
     text-decoration: none;
     color: #F4CE14;
     font-family: 'Gentium Plus';
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 600;
-    margin-top: 2.125rem;
+    margin-top: 1rem;
 }
