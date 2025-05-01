@@ -32,7 +32,7 @@ Before you begin, ensure you have the following installed:
 
 1. **Clone the repository**
    ```bash
-   git clone [https://github.com/devmarto/little-lemon.git]
+   git clone https://github.com/devmarto/little-lemon.git
    cd app
    ```
 
